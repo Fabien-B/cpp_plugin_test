@@ -8,3 +8,6 @@ cmake -S simplePlugin/ -B build/sp -DCMAKE_INSTALL_PREFIX=build/install
 cmake --build build/sp/
 
 
+cmake -S server/ -B build/server -DCMAKE_INSTALL_PREFIX=build/install
+cmake --build build/server
+
