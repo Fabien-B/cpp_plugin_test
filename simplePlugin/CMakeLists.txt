@@ -8,10 +8,12 @@ find_package(PprzServerSDK)
 
 SET(SOURCES_FILES
     simpleConnector.cpp
+    simpleEncoder.cpp
 )
 
 SET(HEADERS_FILES
     simpleConnector.h
+    simpleEncoder.h
 )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES_FILES})
