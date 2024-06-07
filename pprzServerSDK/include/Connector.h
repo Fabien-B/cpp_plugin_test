@@ -2,6 +2,6 @@
 
 class Connector {
 public:
-    const char* getConnectorName();
-    void printName();
+    virtual const char* getConnectorName();
+    virtual void printName();
 };
